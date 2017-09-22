@@ -1,0 +1,53 @@
+{
+  "name": "webpack-2",
+  "version": "1.0.0",
+  "description": "Learning concepts of webpack-2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "server": "node server.js",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrikanthChebrolu/webpack-2.git"
+  },
+  "keywords": [],
+  "author": "SrikanthChebrolu",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "cssnano": "^3.10.0",
+    "cssnext": "^1.8.4",
+    "express": "^4.15.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "lost": "^8.2.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "rucksack-css": "^1.0.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.6.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "bugs": {
+    "url": "https://github.com/SrikanthChebrolu/webpack-2/issues"
+  },
+  "homepage": "https://github.com/SrikanthChebrolu/webpack-2#readme"
+}
